@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enyokitchenette</title>
+    <link rel="shortcut icon" href="img/menu.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Rubik:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Enyokitchenette</h2>
+          <p class="sub-heading">Food & Beverages</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 35k</h4>
+          <p class="item">Honey Ghicks</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 50k</h4>
+          <p class="item">Thunderloin</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Enyokitchenette</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Menus</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon">🚚</div>
+          <h3>Fast Delivery</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus laborum voluptates deleniti dolor et assumenda?</p>
+        </div>
+        <div class="service">
+          <div class="icon">📲</div>
+          <h3>Easy To Order</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus laborum voluptates deleniti dolor et assumenda?</p>
+        </div>
+        <div class="service">
+          <div class="icon">🛍</div>
+          <h3>Fresh Everyday</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus laborum voluptates deleniti dolor et assumenda?</p>
+        </div>
+        <div class="service">
+          <div class="icon">🍽</div>
+          <h3>Best Quality</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus laborum voluptates deleniti dolor et assumenda?</p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="img/gallery/bean.jpg" alt="" />
+        <img src="img/gallery/cape-verde.jpg" alt="" />
+        <img src="img/gallery/meal.jpg" alt="" />
+        <img src="img/gallery/pancake.jpg" alt="" />
+        <img src="img/gallery/potato.jpg" alt="" />
+        <img src="img/gallery/ramen.jpg" alt="" />
+        <img src="img/gallery/ramen2.jpg" alt="" />
+        <img src="img/gallery/salad.jpg" alt="" />
+        <img src="img/gallery/banana.jpg" alt="" />
+        <img src="img/gallery/wellness.jpg" alt="" />
+      </section>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
