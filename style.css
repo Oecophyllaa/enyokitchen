@@ -8,7 +8,7 @@ img {
 }
 
 body {
-  background-color: #ddd;
+  background-color: #FCF8E8;
   font-size: 18px;
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
   margin: 50px;
@@ -188,6 +188,7 @@ body {
   margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 5px;
 }
 
 .gallery h2 {
@@ -195,10 +196,6 @@ body {
   grid-column-end: -1;
   text-align: center;
   margin-bottom: 20px;
-}
-
-.gallery img {
-  width: 200px;
 }
 
 /* Responsive Breakpoints */
